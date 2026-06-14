@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인정보 처리방침 | Guchi Hole</title>
+  <style>
+:root { color-scheme: dark; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans KR", sans-serif; background: #050509; color: #f7f7fb; line-height: 1.7; }
+main { width: min(880px, calc(100% - 32px)); margin: 0 auto; padding: 44px 0 72px; }
+a { color: #f3c86d; }
+nav { display: flex; gap: 12px; flex-wrap: wrap; margin: 18px 0 30px; }
+nav a { padding: 7px 11px; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; text-decoration: none; background: rgba(255,255,255,.06); }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.18; margin: 0 0 8px; }
+h2 { margin-top: 34px; font-size: 21px; }
+p, li { color: rgba(255,255,255,.78); }
+.notice { padding: 14px 16px; border: 1px solid rgba(243,200,109,.35); background: rgba(243,200,109,.08); border-radius: 14px; }
+.meta { color: rgba(255,255,255,.52); font-size: 14px; }
+.card { padding: 18px; border: 1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.055); border-radius: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <nav>
+    <a href="../en/terms.html">English</a>
+    <a href="../ja/terms.html">日本語</a>
+    <a href="../ko/terms.html">한국어</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms</a>
+  </nav>
+
+<h1>개인정보 처리방침</h1>
+<p class="meta">앱: Guchi Hole / 최종 업데이트: 2026년 6월 15일</p>
+<p class="notice">이 방침은 Guchi Hole MVP 버전의 현재 동작을 설명합니다.</p>
+<h2>1. 기본 원칙</h2>
+<p>Guchi Hole은 사용자가 입력한 불만이나 감정의 본문을 저장하지 않고 서버로 전송하지 않도록 설계되었습니다.</p>
+<h2>2. 수집하지 않는 정보</h2>
+<ul><li>투기 입력란에 입력한 본문을 수집하지 않습니다.</li><li>입력 본문을 서버에 저장하지 않습니다.</li><li>MVP 버전에서는 로그인이 필요하지 않습니다.</li></ul>
+<h2>3. 기기에 저장되는 정보</h2>
+<p>앱은 사용자의 총 투기 수, 칭호, 프리미엄 구매 상태, 선택한 스킨, 사운드 설정, 온보딩 표시 상태, 로그인 스탬프 진행도, 관측 스탬프 진행도를 iOS 로컬 저장소에 저장합니다. 앱을 삭제하면 이러한 로컬 데이터가 삭제될 수 있습니다.</p>
+<h2>4. 서버에 저장되는 정보</h2>
+<p>서버에는 공유 통계로 오늘의 투기량, 블랙홀 총질량, 일일 초기화를 위한 날짜 키만 저장됩니다. 이 데이터는 Cloudflare Workers 및 Durable Objects를 사용하여 저장됩니다.</p>
+<h2>5. 구매 정보</h2>
+<p>프리미엄 구매는 Apple StoreKit 및 App Store를 통해 처리됩니다. 앱은 구매 권한을 확인하여 프리미엄 기능을 해제합니다. 개발자는 전체 결제 카드 정보를 받지 않습니다.</p>
+<h2>6. 분석 및 로그</h2>
+<p>Cloudflare는 Worker 요청 수, 오류 수, 성능 정보 등 운영 지표를 제공할 수 있습니다. 이는 서비스 안정성 유지에 사용되며 입력 본문은 포함되지 않습니다.</p>
+<h2>7. 아동</h2>
+<p>본 앱은 아동의 개인정보를 의도적으로 수집하기 위한 것이 아닙니다. 아동이 개인정보를 제공했다고 생각되는 경우 개발자에게 문의해 주십시오.</p>
+<h2>8. 국제 처리</h2>
+<p>서버 운영 데이터는 Cloudflare가 운영하는 지역에서 처리될 수 있습니다. 입력 본문은 서버로 전송되지 않습니다.</p>
+<h2>9. 변경</h2>
+<p>본 개인정보 처리방침은 앱 변경에 따라 업데이트될 수 있습니다. 업데이트된 내용은 이 페이지에 게시됩니다.</p>
+<h2>10. 문의</h2>
+<p>개인정보 관련 문의는 App Store 제품 페이지에 기재된 지원 채널을 통해 연락해 주십시오.</p>
+
+</main>
+</body>
+</html>
